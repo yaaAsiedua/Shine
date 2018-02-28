@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/css/index.css" type="text/css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Roboto|Fira+Sans|" rel="stylesheet">
+
+ <title>Pick Me App</title>
+</head>
+
+ <body>
+
+ <div class="container-fluid">
+				<div class="jumbotron" style="margin-bottom: 0px"> 
+					<h1> Pick Me App <i class="fa fa-car fa-1x"></i></h1>
+					<p>Your #1 Pick Up Services for Kids<i class="fa fa-smile-o"></i></p>
+				</div>
+
+	<nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
+			<button><a class="navbar-brand" href="Sign Up.html"><h5>Pick Me App <i class="fa fa-car fa-1x"></h5></i><h6>Sign Up here</h6></a></button>
+				<ul class= "navbar-nav">
+	  				<li class="nav-item"><a class= "nav-link" href="index.html">Home</a></li>
+  					<li class="nav-item"><a class= "nav-link" href="services.html">Services</a></li>
+  					<li class="nav-item"><a class= "nav-link" href="aboutUs.html">About Us</a></li>
+     				<li class="nav-item"><a class= "nav-link" href="contactUs.html">Contact Us</a></li>
+				</ul>
+	</nav>
+  <div class="card">
+    <img class="card-img-top" src="assets/imgs/photo1.jpg" alt="Card image cap">
+    <div class="card-body" style="background-color:powderblue">
+      <h1 class="card-title">WHO WE ARE</h1>
+      <p class="card-text">Pick Me App aims at being one of the best when it comes to safe and reliable ways of getting your children especially to school very early in the morning and also picking them up back to you per a given location by parents...guilt free! Say goodbye to overloaded buses and vehicles that do not provide much safety to children.</br>Pick Me App is the safest way to transport your child, thanks to our well trained female drivers. Let's help you beat time without stress. We've got your back.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img class="card-img-top" src="assets/imgs/photo10.jpg" alt="Card image cap" height="600px" width="535px">
+    <div class="card-body" style="background-color:powderblue">
+      <h1 class="card-title">WHAT WE DO</h1>
+      <p class="card-text">At Pick Me App we are driven by a passion for safety. Our experienced child-carers are professionals and accredited female drivers. Our vehicles are well equipped with safety features that include tracking plus our routes are very well tailored.</p>
+    </div>
+  </div>
+  <center>
+  <div class="card-body">
+  <h1 class="card-title">REVIEWS</h1>
+    <div style="background-color: #e9ecef">
+  <div id="carouselExampleSlidesOnly" class="carousel slide"    data-ride="carousel">
+      <div class="carousel-inner">
+
+             <div class="carousel-item active">
+     <div class="d-table w-50"><p style="font-family:Dancing Script,cursive">Pick Me App Services have really been of great help to me, they take them to school on my behalf when i need to rush out for work</p><p class="pwriter"> -Mrs Osei</p>
+            </div></div>
+
+            <div class="carousel-item">
+     <div class="d-table w-50"><p style="font-family:Dancing Script,cursive">You're awesome you guys!</p><p class="pwriter"> -Madam Lily</p>
+            </div></div>
+              <div class="carousel-item">
+    <div class="d-table w-50"><p style="font-family:Dancing Script,cursive">Professionalism, just perfect!</p><p class="pwriter"> -Mr Twum-Barima</p>
+          </div></div>
+       <div class="carousel-item">
+    <div class="d-table w-50"><p style="font-family:Dancing Script,cursive">My daughter keeps talking about Pick Me App all the time, you're doing a great job!</p><p class="pwriter"> -Mrs Koranteng</p>
+          </div></div>
+</div>
+</div>
+</div>
+</div>
+</center>
+			
+
+	<footer>&copy Shine 2018 |||<br> <i class="fa fa-facebook-square"></i> | <i class="fa fa-twitter-square"></i> | <i class="fa fa-linkedin-square"></i> | <i class="fa fa-instagram"></i> </footer>
+</div>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script type="text/javascript">
+      var review = function(){
+        swal({
+        title : 'Would you like to leave us a review?',
+        icon : 'info',
+        button : {
+          text : 'Okay cool',
+          closeModal : false
+        }
+      }).then(() => {
+          swal({
+            content : 'input'
+          }).then(text => {
+            if(!text){
+              swal({
+                title: 'Oops',
+                content: 'Okay, we hope to get your review next time',
+                icon: 'warning'
+              })
+            }else{
+              swal({
+                title: 'Thanks for reviewing',
+                icon: 'success',
+                
+              })
+            }
+          })
+        })
+      }
+
+      setTimeout(review, 5000)
+    </script>
+</body>
+</html>
